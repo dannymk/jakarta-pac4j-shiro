@@ -30,7 +30,7 @@ public class loginBean implements Serializable {
           return "success";
         } else {
           SecurityUtils.getSubject().logout();
-            return "failure";
+          return "failure";
         }
     }
 }
